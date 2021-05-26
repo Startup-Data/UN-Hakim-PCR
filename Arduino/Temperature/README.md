@@ -5,9 +5,17 @@
 
 ![image](https://user-images.githubusercontent.com/6679151/119461199-b6ff0180-bd54-11eb-9cdc-41d37eca5c7a.png)
 
+2- Trying to test the Temperature control with Max6675 Thermocouple, the Arduino codes could be seen [here](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better):
 
-ToDo:
+![Uploading image.png…]()
 
-Test it by a real TEC 1 and The Thermocouple
+
+The Circuit schematic is shown below:
+![image](https://user-images.githubusercontent.com/6679151/119708383-59140c00-be71-11eb-8dcd-5ec903dbabcb.png)
+
+
+To Do:
+
+1- Built the Printed Board and the 3D Printer Pack for TEC ( Heater and Cooling Parts)
 
 Thanks.
