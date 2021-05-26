@@ -7,11 +7,10 @@
 
 2- Trying to test the Temperature control with Max6675 Thermocouple, the Arduino codes could be seen [here](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better):
 
-![s](https://i.stack.imgur.com/6xsx6.jpg)
-
+![enter image description here](https://i.stack.imgur.com/hlGOf.jpg)
 
 The Circuit schematic is shown below:
-![image](https://user-images.githubusercontent.com/6679151/119708383-59140c00-be71-11eb-8dcd-5ec903dbabcb.png)
+![enter image description here](https://i.stack.imgur.com/zmYIz.jpg)
 
 
 ## To Do:
