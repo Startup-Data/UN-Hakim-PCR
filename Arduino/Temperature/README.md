@@ -15,6 +15,12 @@ The **Circuit's schematic** is shown below:
 [The below video](https://vimeo.com/555476649) contain **some Description** about **this** part of **the project**:
 ![image](https://user-images.githubusercontent.com/6679151/119751595-b11e3300-beb0-11eb-921c-35b4fa755a0e.png)
 
+3- With LCD (Codes are [Here](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C):
+
+![image](https://user-images.githubusercontent.com/6679151/119862744-106e5880-bf2e-11eb-83e6-cc582c81ec75.png)
+
+4- With 0.91 Inch OLED (Codes are [Here](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C_OLED):
+![image](https://user-images.githubusercontent.com/6679151/119862935-47dd0500-bf2e-11eb-9918-76a7a136ad35.png)
 
 ## To Do:
 
