@@ -12,6 +12,9 @@
 The Circuit schematic is shown below:
 ![enter image description here](https://i.stack.imgur.com/zmYIz.jpg)
 
+[The below video](https://vimeo.com/555476649) contain some Description about this part of the project:
+![image](https://user-images.githubusercontent.com/6679151/119751595-b11e3300-beb0-11eb-921c-35b4fa755a0e.png)
+
 
 ## To Do:
 
