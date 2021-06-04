@@ -22,6 +22,10 @@ The **Circuit's schematic** is shown below:
 4- With 0.91 Inch OLED (Codes are [Here](https://github.com/Startup-Data/UN-Hakim-PCR/blob/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C.ino) which have **too long Delay**!!!):
 ![image](https://user-images.githubusercontent.com/6679151/119862935-47dd0500-bf2e-11eb-9918-76a7a136ad35.png)
 
+5- LCD & K-type Termocouple & Pt100 Temperature Sensor ([link](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C-pt100):
+-PT100 Cods made from [this question](https://stackoverflow.com/questions/30012866/how-to-read-temperature-using-arduino-uno-board-with-pt100-rtd-sensor) and by The blow Circuit ([Search link](https://www.google.com/search?sxsrf=ALeKk00wFLU-x7WOkhKn6DA9n-Dl3tIgUg:1622751979952&source=univ&tbm=isch&q=pt100+arduino+analog+2+wire&sa=X&ved=2ahUKEwi-2cqapvzwAhWZhv0HHadQDfoQjJkEegQIAhAB#imgrc=VT4HHW5GNIEJ5M))
+![image](https://user-images.githubusercontent.com/6679151/120777586-af044600-c53a-11eb-96d1-f3ac89e97451.png)
+
 ## To Do:
 
 1- Built **the PCB Circuit** and **the 3D Printer** Container for **TEC** ( Heater and Cooling Parts)
