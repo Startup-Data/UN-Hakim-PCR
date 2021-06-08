@@ -29,8 +29,17 @@ The **Circuit's schematic** is shown below:
 
 ![image](https://user-images.githubusercontent.com/6679151/120777586-af044600-c53a-11eb-96d1-f3ac89e97451.png)
 
+
+6- LCD & LM35 Temperature Sensor as you can see below (Some problem and Burning the 2 Arduino Uno Cost around 10$ : [Question link][1]):
+
+![image](https://user-images.githubusercontent.com/6679151/121127829-9ef0ad00-c83f-11eb-9aae-72bcbf6864a5.png)
+
+
 ## To Do:
 
 1- Built **the PCB Circuit** and **the 3D Printer** Container for **TEC** ( Heater and Cooling Parts)
 
 **Thanks.**
+
+
+  [1]: https://arduino.stackexchange.com/questions/84593/about-corrupted-lm35-ic-and-arduino-port-problem
