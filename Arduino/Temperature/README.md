@@ -18,7 +18,7 @@ The **Circuit's schematic** is shown below:
 3- With LCD (Codes are [Here](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C)):
 
 ![image](https://user-images.githubusercontent.com/6679151/119862744-106e5880-bf2e-11eb-83e6-cc582c81ec75.png)
-3-1 PID COntrol with Thermocouple Sensor and LCD ([Codes Link](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C_PID)
+3-1 **PID COntrol with Thermocouple Sensor and LCD** ([Codes Link](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C_PID))
 
 4- With 0.91 Inch OLED (Codes are [Here](https://github.com/Startup-Data/UN-Hakim-PCR/blob/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C.ino) which have **too long Delay**!!!):
 ![image](https://user-images.githubusercontent.com/6679151/119862935-47dd0500-bf2e-11eb-9918-76a7a136ad35.png)
