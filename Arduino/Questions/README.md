@@ -1,4 +1,4 @@
-# Question asked:
+# Questions asked:
 
 A- About the **avrdude: stk500_recv()** Error ([link][1]):
 [![enter image description here][2]][2]
@@ -7,7 +7,7 @@ A- About the **avrdude: stk500_recv()** Error ([link][1]):
 B- About **adding one external Power supply** for Arduino ([link][3]):
 [![enter image description here][4]][4]
 
-C- 4 question asked about LM35 problem and trying to use STM32f103c8 board by Arduino:
+C- **4 questions** asked about **LM35 proble**m and trying to **use STM32f103c8 board by Arduino IDE**:
 
  1. [About Corrupted LM35 IC and Arduino port problem][5]
  2. [My Arduino don't show port but is working][6]
