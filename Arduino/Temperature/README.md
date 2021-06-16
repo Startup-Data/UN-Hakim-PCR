@@ -23,7 +23,7 @@ The **Circuit's schematic** is shown below:
 4- With 0.91 Inch OLED (Codes are [Here](https://github.com/Startup-Data/UN-Hakim-PCR/blob/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C.ino) which have **too long Delay**!!!):
 ![image](https://user-images.githubusercontent.com/6679151/119862935-47dd0500-bf2e-11eb-9918-76a7a136ad35.png)
 
-5- LCD & K-type Termocouple & Pt100 Temperature Sensor ([link](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C-pt100)):
+5- LCD & K-type Thermocouple & Pt100 Temperature Sensor ([link](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C-pt100)):
 
 -PT100 Cods made from [this question](https://stackoverflow.com/questions/30012866/how-to-read-temperature-using-arduino-uno-board-with-pt100-rtd-sensor) and by The blow Circuit ([Search link](https://www.google.com/search?sxsrf=ALeKk00wFLU-x7WOkhKn6DA9n-Dl3tIgUg:1622751979952&source=univ&tbm=isch&q=pt100+arduino+analog+2+wire&sa=X&ved=2ahUKEwi-2cqapvzwAhWZhv0HHadQDfoQjJkEegQIAhAB#imgrc=VT4HHW5GNIEJ5M))
 
@@ -34,6 +34,14 @@ The **Circuit's schematic** is shown below:
 6- LCD & LM35 Temperature Sensor as you can see below (Some problem and Burning the 2 Arduino Uno Cost around 10$ : [Question link][1]):
 
 ![image](https://user-images.githubusercontent.com/6679151/121127829-9ef0ad00-c83f-11eb-9aae-72bcbf6864a5.png)
+
+7-  LCD & DS18B20 Temperature Sensor as you can see below (Codes are [here](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C_PID):
+
+![image](https://user-images.githubusercontent.com/6679151/122235371-e37ce800-ced2-11eb-976d-63701d026a2b.png)
+
+8- LCD & DS18B20 and Thermocouple Temperature Sensor as you can see below (Codes are [here](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-ds18b20-and-Termocouple--better_LCD_I2C):
+
+![image](https://user-images.githubusercontent.com/6679151/122234738-5d60a180-ced2-11eb-8a88-b3eddb9d1adc.png)
 
 
 ## To Do:
