@@ -35,18 +35,19 @@ The **Circuit's schematic** is shown below:
 
 ![image](https://user-images.githubusercontent.com/6679151/121127829-9ef0ad00-c83f-11eb-9aae-72bcbf6864a5.png)
 
-7-  LCD & DS18B20 Temperature Sensor as you can see below (Codes are [here](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C_PID):
+7-  **LCD**,  **DS18B20** Temperature Sensor as you can see below (Codes are [here](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-Thermocouple-Max6675_better_LCD_I2C_PID)):
 
 ![image](https://user-images.githubusercontent.com/6679151/122235371-e37ce800-ced2-11eb-976d-63701d026a2b.png)
 
-8- LCD & DS18B20 and Thermocouple Temperature Sensor as you can see below (Codes are [here](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-ds18b20-and-Termocouple--better_LCD_I2C):
+8- **LCD**, **DS18B20** and **Thermocouple** Temperature Sensor as you can see below (Codes are [here](https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-ds18b20-and-Termocouple--better_LCD_I2C)):
 
-![image](https://user-images.githubusercontent.com/6679151/122234738-5d60a180-ced2-11eb-8a88-b3eddb9d1adc.png)
+![image](https://user-images.githubusercontent.com/6679151/122235903-4cfcf680-ced3-11eb-9e3b-e86900b43c9a.png)
 
 
 ## To Do:
 
 1- Built **the PCB Circuit** and **the 3D Printer** Container for **TEC** ( Heater and Cooling Parts)
+2- **Calibrate** the temperature Sensor.
 
 **Thanks.**
 
