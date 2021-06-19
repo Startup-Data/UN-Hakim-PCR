@@ -223,6 +223,42 @@ float PID_Temp(float setpoint,float previous_error ){
 //           END of PID Function for better ontrol On Temprature
 //=================================================================
 
+
+//=================================================================
+//            temperature sensor calibration and correction
+//=================================================================
+float correctTemp_ds18b20(float temperature) {
+
+  // https://www.instructables.com/Calibration-of-DS18B20-Sensor-With-Arduino-UNO/
+ 
+  float RawHigh = 93.5;
+  float RawLow = 0.0;
+  float ReferenceHigh = 99.9;
+  float ReferenceLow = -0.5;
+  float RawRange = RawHigh - RawLow;
+  float ReferenceRange = ReferenceHigh - ReferenceLow;
+
+  float CorrectedValue= (ReferenceRange/RawRange)*temperature+RawLow;//(((RawHigh - RawLow) * ReferenceRange) / RawRange) + ReferenceLow;
+ return  CorrectedValue;
+}
+
+float correctTemp_termocouple_k_type(float temperature) {
+// https://www.instructables.com/Calibration-of-DS18B20-Sensor-With-Arduino-UNO/
+ 
+  float RawHigh = 96.5;
+  float RawLow = 0.5;
+  float ReferenceHigh = 99.9;
+  float ReferenceLow =  -0.5;
+  float RawRange = RawHigh - RawLow;
+  float ReferenceRange = ReferenceHigh - ReferenceLow;
+
+  float CorrectedValue= (ReferenceRange/RawRange)*temperature+RawLow;//(((RawHigh - RawLow) * ReferenceRange) / RawRange) + ReferenceLow;
+ return  CorrectedValue;
+}
+
+//=================================================================
+//           END of  temperature sensor calibration and correction
+//=================================================================
 //=================================================================
 //           Setup
 //=================================================================
@@ -332,7 +368,7 @@ PID_value,previous_error=PID_Temp(hightemp,previous_error);
   Serial.print((char)176);//shows degrees character
   Serial.print("C  ");
   lcd.print("Tmp:");
-  lcd.print(sensors.getTempCByIndex(0));
+  lcd.print(correctTemp_ds18b20(sensors.getTempCByIndex(0)));
   lcd.print("C");
   
 //  if (sensors.getTempCByIndex(0) < lowtemp){
@@ -361,7 +397,7 @@ PID_value,previous_error=PID_Temp(hightemp,previous_error);
   
 //  else if ((PID_value < hightemp) and (PID_value > lowtemp) and (t==1)){
 
-  else if ((sensors.getTempCByIndex(0) < hightemp) and (sensors.getTempCByIndex(0) > lowtemp) and (t==1)){
+  else if ((correctTemp_ds18b20(sensors.getTempCByIndex(0)) < hightemp) and (correctTemp_ds18b20(sensors.getTempCByIndex(0)) > lowtemp) and (t==1)){
 //    delayMicroseconds(maximum_firing_delay - PID_value); //This delay controls the po
     delayMicroseconds( PID_value); //This delay controls the po
     digitalWrite(relay1, LOW);
@@ -402,7 +438,7 @@ PID_value,previous_error=PID_Temp(hightemp,previous_error);
 ////  String mystring = String(temp.readCelsius());
   lcd.setCursor(0,0);
   lcd.print("Tmp:");
-  lcd.print(temp.readCelsius());
+  lcd.print(correctTemp_termocouple_k_type(temp.readCelsius()));
   lcd.print("C T_Couple");
 //
 ////  delay(1000);  
