@@ -46,10 +46,18 @@ The **Circuit's schematic** is shown below:
 
 ## To Do:
 
-1- Built **the PCB Circuit** and **the 3D Printer** Container for **TEC** ( Heater and Cooling Parts)
-2- **Calibrate** the temperature Sensor.
+ 1. Built **the PCB Circuit** and **the 3D Printer** Container for
+    **TEC** ( Heater and Cooling Parts)
+ 2. **Calibrate** the temperature Sensor:
+
+    Done and could be at [this codes][2], which could be seen at the below 
+    part of main code:
+
+![image](https://user-images.githubusercontent.com/6679151/122644954-00acf300-d12d-11eb-820f-957006704ee4.png)
+
 
 **Thanks.**
 
 
   [1]: https://arduino.stackexchange.com/questions/84593/about-corrupted-lm35-ic-and-arduino-port-problem
+  [2]: https://github.com/Startup-Data/UN-Hakim-PCR/tree/main/Arduino/Temperature/PCR-cooling-heating-ds18b20-and-Termocouple--better_LCD_I2C
